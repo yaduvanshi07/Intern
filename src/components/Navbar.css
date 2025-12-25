@@ -1,0 +1,54 @@
+.custom-navbar {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  padding: 1rem 0;
+}
+
+.custom-navbar.scrolled {
+  background: rgba(255, 255, 255, 0.98);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+  padding: 0.5rem 0;
+}
+
+.brand {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--primary-color) !important;
+  text-decoration: none;
+}
+
+.brand-text {
+  color: var(--primary-color);
+}
+
+.custom-navbar .nav-link {
+  color: var(--dark-color) !important;
+  font-weight: 500;
+  margin: 0 0.5rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.custom-navbar .nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: var(--primary-color);
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.custom-navbar .nav-link:hover::after {
+  width: 80%;
+}
+
+.custom-navbar .nav-link:hover {
+  color: var(--primary-color) !important;
+}
+
