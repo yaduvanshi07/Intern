@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { motion } from 'framer-motion';
-import { FaUsers, FaProjectDiagram, FaAward, FaGlobe } from 'react-icons/fa';
+import { FaUsers, FaProjectDiagram } from 'react-icons/fa';
 import './About.css';
 
 const About = () => {

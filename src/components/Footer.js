@@ -24,19 +24,19 @@ const Footer = () => {
               Simple solutions for your business needs.
             </p>
             <div className="social-links">
-              <a href="#" className="social-link" aria-label="Facebook">
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Facebook">
                 <FaFacebook />
               </a>
-              <a href="#" className="social-link" aria-label="Twitter">
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Twitter">
                 <FaTwitter />
               </a>
-              <a href="#" className="social-link" aria-label="Instagram">
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Instagram">
                 <FaInstagram />
               </a>
-              <a href="#" className="social-link" aria-label="LinkedIn">
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="LinkedIn">
                 <FaLinkedin />
               </a>
-              <a href="#" className="social-link" aria-label="GitHub">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="GitHub">
                 <FaGithub />
               </a>
             </div>
@@ -69,10 +69,10 @@ const Footer = () => {
           <Col md={3}>
             <h5 className="footer-title">Support</h5>
             <ul className="footer-links">
-              <li><a href="#">Help Center</a></li>
-              <li><a href="#">Documentation</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Terms of Service</a></li>
+              <li><a href="/help">Help Center</a></li>
+              <li><a href="/docs">Documentation</a></li>
+              <li><a href="/privacy">Privacy Policy</a></li>
+              <li><a href="/terms">Terms of Service</a></li>
             </ul>
           </Col>
           <Col md={3}>

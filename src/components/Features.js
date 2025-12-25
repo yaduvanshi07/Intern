@@ -4,10 +4,7 @@ import { motion } from 'framer-motion';
 import {
   FaRocket,
   FaShieldAlt,
-  FaChartLine,
-  FaMobileAlt,
-  FaCloud,
-  FaLock
+  FaMobileAlt
 } from 'react-icons/fa';
 import './Features.css';
 
